@@ -1,0 +1,20 @@
+@host = https://localhost:7265
+
+
+GET {{host}}/api/product
+tenant: LinkedIn
+###
+
+GET {{host}}/api/Product/1
+tenant: LinkedIn
+
+###
+POST {{host}}/api/product
+tenant: twitter
+Content-Type: application/json
+
+{
+  "name": "Product 1 -twitter",
+  "rate": 3,
+  "description": "My Second twitter Product"
+}

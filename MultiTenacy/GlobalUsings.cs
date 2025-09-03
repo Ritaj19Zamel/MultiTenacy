@@ -1,0 +1,13 @@
+﻿global using MultiTenacy.Contracts;
+global using MultiTenacy.Settings;
+global using MultiTenacy.Services;
+global using MultiTenacy.Models;
+global using MultiTenacy.Data;
+global using Microsoft.EntityFrameworkCore;
+global using MultiTenacy;
+global using MultiTenacy.Interceptors;
+global using Microsoft.EntityFrameworkCore.Diagnostics;
+global using System.Text.Json;
+global using System.Collections.Concurrent;
+global using Microsoft.AspNetCore.Mvc;
+global using MultiTenacy.Dtos;

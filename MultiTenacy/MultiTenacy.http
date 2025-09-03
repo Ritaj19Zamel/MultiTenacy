@@ -1,0 +1,15 @@
+﻿@MultiTenacy_HostAddress = https://localhost:7265
+
+@id=0
+GET {{MultiTenacy_HostAddress}}/api/Product/{{id}}
+
+###
+
+POST {{MultiTenacy_HostAddress}}/api/product
+Content-Type: application/json
+
+{
+  //CreateProductDto
+}
+
+###
